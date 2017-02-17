@@ -1,4 +1,4 @@
-import numpy as np
+umport numpy as np
 import matplotlib.pylab as plt
 
 def step_function(x):
