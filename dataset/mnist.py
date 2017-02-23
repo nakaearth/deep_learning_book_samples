@@ -29,11 +29,11 @@ img_size = 784
 
 def _download(file_name):
     file_path = dataset_dir + "/" + file_name
-    
+    print(file_path)
+
     if os.path.exists(file_path):
         return
 
-    print("Downloading " + file_name + " ... ")
     urllib.request.urlretrieve(url_base + file_name, file_path)
     print("Done")
     
